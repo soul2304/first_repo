@@ -1,0 +1,77 @@
+<script>
+	/* local and global sccope variables	
+	
+	let a ="hello";
+	document.write(a + "<br>");
+	if (a == "hello"){
+	let y ="world";
+	document.write(a+" "+y+"<br>");
+	}
+	document.write(a + "<br>") // is a global scope
+	//document.write(y + "<br>") //its a local scope*/
+
+	/* type casting 
+
+	let number="123";//its a string
+	document.write(typeof(number)+"<br>");
+	number=parseInt(number);
+	document.write(typeof(number)+"<br>");//turns into integer or string
+	
+	let a="100";
+	let b="200";
+	let c="a+b";
+	document.write(c+"<br>");
+	document.write(parseInt(a)+parseInt(b)+"<br>")
+	document.write(parseInt(c))//didnt get the solution */
+
+	/*alert
+
+	//let name="soul";
+	//alert(name);
+	//alert("my name is "+name);
+	//let person = prompt("enter a name");
+	//alert("name is"+" "+person)
+	let age = parseInt(prompt("age"));
+	alert ("your age is "+ age)*/
+
+	//Problem
+	/*Find area & perimeter of a rectangle by taking the l & b from the
+	users
+
+	let length = parseInt(prompt("Enter Length In cm"));
+	let breadth = parseInt(prompt("Enter Breadth In cm"));
+	let area = length*breadth;
+	let perimeter = 2*(length+breadth);
+	document.write("area ="+ area+" "+"sq cm<br>");
+	document.write("perimeter="+perimeter+" "+"cm");*/
+
+// 	function pal(num) {
+//   let reverse = 0;
+//   let temp = num;
+//   while (num > 0) {
+//     let digit = num % 10;
+//     reverse = (reverse * 10) + digit;
+//     num = parseInt(num / 10);
+//   }
+//   if (temp === reverse) {
+//     return " is a palindrome";
+//   } else {
+//     return " is not a palindrome";
+//   }
+// }
+// let userinput = Number(prompt("enter the number"));
+// let result = pal(userinput);
+// document.write("The number " + userinput + result);
+
+
+ let a = prompt("enter the name");
+ let b = "";
+ for(i=a.length-1;i>=0;i--){
+	b+=a[i]
+ }
+ if(a==b){
+		document.write ("it is strong")
+	}else{
+		document.write("not strong")
+	}
+</script>
